@@ -25,14 +25,6 @@ for i in range(row2):
         temp.append(int(input()))
     B.append(temp)
 
-print(A)
-print(B)
-
-print(len(A))
-print(len(B))
-
-
-
 def matrix_mul(A, B):
     if(col1 == row2):
         result = [[0 for i in range(SIZE)]
